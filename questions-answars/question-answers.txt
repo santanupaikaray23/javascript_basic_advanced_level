@@ -1,0 +1,59 @@
+JavaScript
+---------------
+It is a programming language which allows us to implement
+complex features on the web pages.
+
+HTML -  it is a markup language that we use to structure and give meaning to our
+web content.
+
+CSS -  It is a language of style  rules that we used to apply styling to our HTML Content.
+
+JavaScript - It is scripting language that enables you to create dynamically updating content.
+
+Syntax Parser
+----------------
+A Program that reads your code and determines what it does and if its grammer is
+valid.
+
+Lexical Environment:
+--------------------------
+Where something sits physically in the code you write
+
+function(){
+    santanu
+    kumar
+    paikary
+
+}
+
+Execution Context
+----------------------
+A wrapper to help manage the code that is running
+
+lexical 1
+lexical 2
+lexical 3
+
+for e.g There are lots of lexical Environments which one is currently running 
+is managed by Execution context.
+
+Name/value pairs
+------------------
+
+name : value
+
+A name which maps to a unique value(name: 'Santanu')
+
+Object:
+---------
+A collection of name value pairs
+
+Global Environment and Global Object
+---------------------------------------
+When ever code is running in JavaScript it runs inside an Execution context.
+
+Execution Context(Global)
+----------------------------
+
+Global Object  // JavaScript Execution engine creating these two things for us
+this

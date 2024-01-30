@@ -1,0 +1,22 @@
+Execution engine gives us two things 
+   1 - Global Object
+   2 - this
+
+   this - window (this is browser window)
+
+   Global Object - window
+
+   Hoisting
+----------------
+When you declare variables and functions in javascript ,
+the Execution engine sets up a memory space for variables and
+functions .
+
+1.If it is a variable it will keep that variable in memory and assign
+a default value called undefined.
+2. If it is a function it will copy the entire function and 
+keeps in memory. 
+   
+   undefined
+   ---------------
+   It is special value in javascript
