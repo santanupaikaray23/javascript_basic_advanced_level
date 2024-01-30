@@ -1,3 +1,4 @@
+Completed Video :
 Execution engine gives us two things 
    1 - Global Object
    2 - this
@@ -19,4 +20,52 @@ keeps in memory.
    
    undefined
    ---------------
-   It is special value in javascript
+   It is special value in javascript which takes up memory space.
+
+   Warning : Never ever declare a variable undefined, Because it is difficult to \
+   find value is 'undefined' because we set it or javascript engine set it up.
+
+Types In Javascript:
+----------------------
+Dynamic Typing:
+----------------
+You don't tell the engine what type of data a variable holds
+It figures out while your code running.
+
+Strict Typing
+----------------
+C# or java follows script Typing
+
+Prmitive Types
+--------------------
+A type of data that represents a single value is called primitive data type.
+
+1. undefined - This represents lack of existance(we should never use this).
+2. null - This represents lack of existance(we can set a variable to this).
+3. Boolean - true or false
+4. number - Integer/floating type(decimal)
+5. string - it is a sequence of characters
+6. symbol - used in ES6
+
+Anything which is not primitive is an object in javascript.
+
+object
+function
+array
+Date
+RegularExpression
+
+Functions
+--------------
+Function is a block of code wrapped around flower brackets and invocated later.
+
+function functionname(){
+
+}
+
+1. Regular Function
+2. Anonymous Functions
+3. Immediately Invoked Functions(IIFs)
+
+
+

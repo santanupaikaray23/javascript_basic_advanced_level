@@ -14,3 +14,4 @@ a={}//object
 a=[]//array
 a=function(){}//function
 console.log(a)
+
