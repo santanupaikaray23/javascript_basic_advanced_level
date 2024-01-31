@@ -1,4 +1,4 @@
-Completed Video :
+Completed Video : 25
 Execution engine gives us two things 
    1 - Global Object
    2 - this
@@ -66,6 +66,52 @@ function functionname(){
 1. Regular Function
 2. Anonymous Functions
 3. Immediately Invoked Functions(IIFs)
+
+First Class Functions:
+---------------------------
+1. Can be Invoked
+2. Assign to a variable
+3. passed as a parameter to another variable
+
+Advantages with IIFs
+-----------------------
+Will not create unnecessary global variables and functions.
+Functions and Variables defined don't conflict.
+
+Objects:
+----------
+It is a collection of name value pairs,
+
+1. Using New Object()
+2. Using Object Literal{}
+3. Using Object.create()
+
+Object.create() method creates a new object using an existing
+object or null as the prototype of newly created Object.
+
+JSON
+-----------
+Javascript Object Notation
+Inspired by the object literal Notation{}
+
+<data>
+<firstname></firstname>
+<lastName></lastName>
+</data>
+
+JSON
+--------
+{
+   "firstname":"uma",
+   "lastName":"Mahesh"
+}
+
+Object
+---------
+{
+   "firstname":"santanu",
+   "lastName":"Paikaray"
+}
 
 
 
