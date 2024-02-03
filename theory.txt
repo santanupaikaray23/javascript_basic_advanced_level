@@ -1,4 +1,5 @@
 Completed Video : 25
+--------------------------------------
 Execution engine gives us two things 
    1 - Global Object
    2 - this
@@ -210,6 +211,14 @@ Object 'Prototype'
 Every Object which is created using object literal Syntax or constructer Syntax
 with new keyword includes __proto__property that points to prototype object of a 
 function that created this Object.
+
+Inheritance:
+-------------
+One Object gets Properties and methods of another object.
+
+In javascript inheritance is supported by using prototype object.
+This is also called prototypal inheritance.
+
 
 
 
