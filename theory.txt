@@ -219,6 +219,41 @@ One Object gets Properties and methods of another object.
 In javascript inheritance is supported by using prototype object.
 This is also called prototypal inheritance.
 
+Polymorphism:
+-------------------
+It means function existing in many forms.
+
+In Programming , The ability for objects to present the same interface for different behaviour.
+
+Error Handling :
+-------------------
+Helps us to handle the error (runtime), for accessing undefined 
+variable or undefined function.
+
+try-catch-finally block
+
+try{
+   // code that may or may not throws error
+}
+catch{
+   //code to be executed if an error occurs
+}
+finally{
+   //code to be executed regardless of an error occurs or not
+}
+
+Singleton Design Pattern
+---------------------------
+Limits the number of instances of a perticular object to just one.
+This single instance is called the singleton.
+
+Singletons are useful in stuations where system wide actions need to be 
+coorodinated from a single central place.
+
+E.g Database connection pool
+
+The pool that manages the creation, destruction and lifetime of all Database connections
+for the entire application.
 
 
 
